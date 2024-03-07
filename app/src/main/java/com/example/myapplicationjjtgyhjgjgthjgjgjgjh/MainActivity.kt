@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Muhammad Fais Al Qori")
+                    Greeting("Fais Al Qori")
                 }
             }
         }
@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Surface(color= Color.Cyan) {
         Text(
-            text = "Hello $name! How Are You?",
+            text = "Hello $name! Pie Kabar e?",
             modifier = Modifier.padding(24.dp),
             textAlign = TextAlign.Center,
             fontSize = 25.sp,
@@ -53,6 +53,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     MyApplicationjjtgyhjgjgthjgjgjgjhTheme {
-        Greeting("Muhammad Fais Al Qori")
+        Greeting("Fais Al Qori")
     }
 }
