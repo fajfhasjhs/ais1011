@@ -38,9 +38,9 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Surface(color= Color.Cyan) {
+    Surface(color= Color.Green) {
         Text(
-            text = "Hello $name! Pie Kabar e?",
+            text = "Hello $name! Kamu pasti bisa menyelesaikan semua!",
             modifier = Modifier.padding(24.dp),
             textAlign = TextAlign.Center,
             fontSize = 25.sp,
