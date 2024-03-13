@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String) {
     Surface(color= Color.Green) {
         Text(
-            text = "Hello $name! Kamu pasti bisa menyelesaikan semua!",
+            text = "Hello $name! Kamu pasti bisa menyelesaikan semua Fais!",
             modifier = Modifier.padding(24.dp),
             textAlign = TextAlign.Center,
             fontSize = 25.sp,
